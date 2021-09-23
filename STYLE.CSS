@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid#3d3d33;
+}
+nav h1{
+    color: #3D3D33;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+h1 span{
+    color: #7ed957;
+}
+nav .onglet{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglet a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #3D3D33;
+    color: #fff;
+    padding: 40px;
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+header button {
+
+    background-color: white;
+    border: none;
+    color: #7ed957;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 50px;
+}
+i{
+    color: #7ed957;
+    font-size: 50px;
+    margin-top: 30px;
+
+}
+
+.main .content .regle {
+justify-content: space-evenly;
+text-align: center;
+
+padding: 50px;
+
+}
+
+.main .content .regle span{
+    color: red;
+    font-weight: bold;
+}
+.main .content .regle i{
+    color: #f0c300;
+    font-size: 100px;
+}
+.main .content .regle p{
+    font-weight: bold;
+    padding: 20px;
+}
+footer{
+    margin-top: 40px;
+border-top: 5px solid #3d3d33;
+background-color: #3d3d33;
+color: white;
+padding: 30 px 300px;
+}
+footer h1{
+    
+    text-align: center;
+
+}
+footer h3{  
+    padding: 10px;
+
+    text-align: center
+    
+    
+}
+footer .pronostics{
+       margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .pronostics .pronostic{
+    margin-right: 30px;
+    padding: 152px;
+    
+   
+}
+footer .pronostics .pronostic p{
+    max-width: 300px;
+border-top: 1PX solid white;
+    text-align: center;
+
+    padding-top: 50PX;
+    
+   
+ 
+}
+.copy p {   
+   display: flex;
+   padding: 2rem;
+   
+   
+}
+
+    
+@media screen and (max-width:680px){
+    nav .onglet{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
